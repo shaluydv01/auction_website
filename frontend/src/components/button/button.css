@@ -1,0 +1,22 @@
+/* button.css */
+#Button {
+  /* Base styles */
+  background-color: #007bff; /* Electrical blue background */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+
+  /* Fixed glowing effect */
+  box-shadow: 0 0 10px #007bff, 0 0 20px #007bff, 0 0 40px #007bff;
+}
+
+#Button:hover {
+  /* Change glow and background color on hover */
+  box-shadow: 0 0 10px #ff416c, 0 0 20px #ff416c, 0 0 40px #ff416c;
+  background-color: #ff416c; /* Hover background color */
+  transform: scale(1.1);
+}
